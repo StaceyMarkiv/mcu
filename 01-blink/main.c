@@ -1,7 +1,7 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
-const uint LED_PIN = 15;
+const uint LED_PIN = 15;        //встроенный светодиод запустить не получилось, подключила внешний светодиод на 15 пин
 
 int main()
 {
